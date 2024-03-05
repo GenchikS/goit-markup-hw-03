@@ -22,10 +22,13 @@ a{
 .container-all{
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
+   margin: 0 auto;
     /* background-color:#cacbd4; */
     }
 /* header */
+.header{
+    border-bottom: 1px solid  #e7e9fc;
+}
 .header-container{
     width: 1440px;
     padding-top: 24px;
