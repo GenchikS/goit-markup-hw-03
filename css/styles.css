@@ -39,7 +39,7 @@ a{
     
 
 .header-navi{
-    padding-left: 156px;
+    /* padding-left: 156px; */
     align-items: center;
     display: flex;
 }
