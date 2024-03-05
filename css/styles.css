@@ -20,6 +20,12 @@ a{
 /* container content */
 
 .container-all{
+    width: 1440px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;}
+
+.container-header{
     width: 1158px;
     padding: 0 15px;
    margin: 0 auto;
@@ -29,11 +35,7 @@ a{
 .header{
     border-bottom: 1px solid  #e7e9fc;
 }
-.header-container{
-    width: 1440px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: flex;}
+
     
 
 .header-navi{
