@@ -40,10 +40,10 @@ a{
 
 .header-navi{
     padding-left: 156px;
+    align-items: center;
     display: flex;
 }
 .header-list{
-    margin-left: 76px;
     display: flex;
 }
 /* header logo */
@@ -53,6 +53,7 @@ a{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px
     /* padding-top: 24px;
     padding-left: 156px;
     margin-bottom: 24px; */
@@ -76,7 +77,10 @@ a{
 .navi-portfolio,
 .navi-contacts{margin-left: 40px;
 }
-.adress{margin-left: 332px;}
+.adress{
+    margin-left: 332px;
+    align-items: center;
+}
 
 .address-navi{
     font-style: normal;
