@@ -13,13 +13,11 @@ ul, li{
     padding: 0;
     margin: 0;
 }
-a{
+a{ 
     text-decoration: none;
 }
 
 /* container content */
-
-
 
 .container{
     width: 1158px;
@@ -37,8 +35,8 @@ a{
     display: flex;
 }
 .header-navi{
-    align-items: center;
     display: flex;
+    align-items: center;
 }
 
 /* header logo */
@@ -48,10 +46,12 @@ a{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding-top: 24px;
     margin-right: 76px;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .studio{color: #2e2f42;}
 
 .header-list{
@@ -151,31 +151,30 @@ a{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .list-all{
     display: flex;
     gap: 24px;
 }
+
 .display-list{
-    width: calc((100% - 72px) / 4);
-    /* margin-bottom: 120px; */
-    /* margin: 0 auto; */
-    
-}
+    width: calc((100% - 24px * 3) / 4);
+    }
 
 .team-img{
     display: block;
 }
 .container-title-text{
     padding: 32px 0;
-    
 }
+
 .title-text{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
     color: #2E2F42;
     }
 
@@ -184,8 +183,7 @@ a{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    /* margin-top: 8px; */
-    text-align: center;
+    text-align: left;
     color: #434455;
     }
  
@@ -204,6 +202,7 @@ a{
  
      /* section 3 */
 .team{
+        width: 1440px;
         padding: 120px 0;
         margin: 0 auto;
         background-color:  #F4F4FD;
