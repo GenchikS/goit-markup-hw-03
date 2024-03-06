@@ -57,6 +57,8 @@ a{
     display: flex;
 }
 .text-navi{
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
@@ -67,19 +69,18 @@ a{
 .text-navi:focus{
     color: #404bbf;
 }
-.navi-studio,
+/* .navi-studio,
 .navi-portfolio,
 .navi-contacts{ 
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 .adress{
     margin-left: 332px;
     align-items: center;
 }
 
 .address-navi{
-    
     padding-top: 24px;
     padding-bottom: 24px;
     gap: 40px;
