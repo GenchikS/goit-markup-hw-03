@@ -239,7 +239,6 @@ a{
 }
 .img-portfilio-flex{
     width: 1128px;
-    height: 420px;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
