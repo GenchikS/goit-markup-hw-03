@@ -21,7 +21,6 @@ a{
 
 .header{
     width: 1440px;
-    /* padding-left: 156px; */
     margin: 0 auto;
     border-bottom: 1px solid  #e7e9fc;
 }
@@ -56,9 +55,8 @@ a{
     gap: 40px;
     display: flex;
 }
-.text-navi{
-    padding-top: 24px;
-    padding-bottom: 24px;
+.header-list .text-navi{
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
