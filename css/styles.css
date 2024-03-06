@@ -55,8 +55,10 @@ a{
     gap: 40px;
     display: flex;
 }
-.text-navi{
+.navi-style{
     padding: 24px 0;
+}
+.text-navi{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
@@ -103,17 +105,17 @@ a{
 .adress-tel{margin-left: 40px;}
 
 /* section 1 hero */
-/* .section-hero{
-    
-} */
-.container-hero{
+.section-hero{
     width: 1440px;
     height: 600px;
-    background-color: #2e2f42;
     padding: 188px 0;
+    background-color: #2e2f42;
     margin: 0 auto;
     text-align: center;
 }
+/* .container-hero{
+   
+} */
 .hero{
     font-weight: 700;
     font-size: 56px;
