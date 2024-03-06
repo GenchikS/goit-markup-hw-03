@@ -25,7 +25,7 @@ a{
     border-bottom: 1px solid  #e7e9fc;
     }
 
-.container-all{
+.container{
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -57,19 +57,21 @@ a{
     gap: 40px;
     display: flex;
 }
-.navi-style{
-    padding: 24px 0;
-}
+
 .text-navi{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding: 24px 0;
     color: #2e2f42;
     }
 .text-navi:hover,
 .text-navi:focus{
     color: #404bbf;
+}
+.navi-style{
+    padding: 24px 0;
 }
 /* .navi-studio,
 .navi-portfolio,
