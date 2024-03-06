@@ -195,7 +195,6 @@ a{
 .team{
         padding: 120px 0;
         margin: 0 auto;
-        border-radius: 0 0 4px 4px;
         background-color:  #F4F4FD;
     }
 .img-text-flex{
@@ -216,11 +215,14 @@ a{
     color: #2E2F42;
 }
 .team-backgr{
+    border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
 }
 
 /* section 4 */
 .section-portfilio{
+    padding-top: 120px;
+    padding-bottom: 120px;
     margin: 0 auto;
 }
 .portfilio {
@@ -229,7 +231,7 @@ a{
     line-height: 1.11; 
     letter-spacing: 0.02em;
     margin: 0 auto;
-    padding-top: 120px;
+    margin-bottom: 72px;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42
@@ -251,13 +253,13 @@ a{
 .portfilio-list{
     width: 360px;
     height: 420px;
+    flex-wrap: wrap;
 }
 .container-cart{
     width: 360px;
     height: 120px;
-    /* margin-left: 16px; */
-    /* text-align: center; */
-    /* justify-content: center; */
+    padding: 32 px 16px;
+    border: 1px solid #e7e9fc
 }
 .portfiloio-title{
     margin-top: 32px;
