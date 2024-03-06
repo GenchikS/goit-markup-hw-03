@@ -52,6 +52,7 @@ a{
 .studio{color: #2e2f42;}
 
 .header-list{
+    padding: 24px 0;
     gap: 40px;
     display: flex;
 }
@@ -66,11 +67,11 @@ a{
 .text-navi:focus{
     color: #404bbf;
 }
-.navi-studio,
+/* .navi-studio,
 .navi-portfolio,
 .navi-contacts{ 
     padding: 24px 0;
-}
+} */
 .adress{
     margin-left: 332px;
     align-items: center;
